@@ -68,3 +68,4 @@ const insertionSort = (array) => {
 };
 
 sortButton.addEventListener('click', sortInputArray);
+
