@@ -1,0 +1,64 @@
+body {
+	background-color: darkblue;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.code,
+.name {
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bolder;
+	font-size: 2em;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	padding: 30px 120px;
+	border-radius: 10px;
+}
+
+.enterText {
+	padding-bottom: 20px;
+	color: darkblue;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+}
+
+.checked {
+	padding-top: 10px;
+	color: darkblue;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+.none {
+	display: none;
+}
+
+.mainInput {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+.meaning {
+	background-color: green;
+	padding: 10px;
+	margin-top: 10px;
+	width: 40%;
+	border-radius: 20px;
+}
+.meaning > p {
+	color: white;
+	font-size: 22px;
+}
