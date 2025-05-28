@@ -1,0 +1,13 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 40px;
+}
+input,
+button {
+	padding: 8px;
+	margin: 10px 0;
+}
+#change-due {
+	margin-top: 20px;
+	font-weight: bold;
+}
