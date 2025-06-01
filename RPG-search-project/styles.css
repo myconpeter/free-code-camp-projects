@@ -1,0 +1,39 @@
+body {
+	background-color: darkorchid;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.creatureContainer {
+	background-color: #f0f0f0;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+button {
+	background-color: #4caf50;
+	border: none;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+input {
+	width: 60%;
+	height: 25px;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.power {
+	background-color: #4caf50;
+	padding: 10px;
+	display: inline-block;
+}
